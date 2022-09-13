@@ -1,0 +1,177 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: url("https://i.ytimg.com/vi/TsVlA02Se4E/maxresdefault.jpg");
+  background-color: black;
+  background-size: cover;
+  background-position: absolute;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+h1 {
+  position: center;
+  font-family: bebas neue, sans-serif;
+  font-size: 80px;
+  color: white;
+  letter-spacing: 2px;
+  margin: auto;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.gabe-logo {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+table {
+  margin: auto;
+  color: #93939f;
+  border-spacing: 6px;
+  border-collapse: separate;
+  width: 960px;
+}
+
+th {
+  background-color: #6b9dce;
+  color: black;
+}
+
+tr,
+td {
+  color: white;
+  background-color: #93939f;
+  width: 75px;
+  font-size: 20px;
+}
+
+img {
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #f5f5f5;
+  background-color: #e6af38;
+  border-radius: 4px;
+  border: 1px solid #e6af38;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.myButton:hover {
+  background-color: #e0771b;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.myButton1 {
+  box-shadow: inset 0px 1px 0px 0px #f5f5f5;
+  background-color: #e6af38;
+  border-radius: 4px;
+  border: 1px solid #e6af38;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+.myButton1:hover {
+  background-color: #e0771b;
+}
+.myButton1:active {
+  position: relative;
+  top: 1px;
+}
+
+.titulopopup {
+  color: #2b323e;
+}
+.popup {
+  font-family: montserrat;
+  font-size: 25px;
+  text-align: center;
+  align-content: flex;
+  color: #2b323e;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  background-image: url("https://static.playoverwatch.com/img/scene/candy-5d74c9b93f.jpg");
+  background-size: cover;
+  display: none;
+}
+
+.popuptexto {
+  position: center;
+  font-size: 30px;
+}
+
+input {
+  display: block;
+  margin: auto auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-size: 30px;
+  padding: 20px;
+  width: 300px;
+  height: 20px;
+  border-radius: 4px;
+  border-style: none;
+  border: #111111;
+  background-color: #2b323e;
+}
+
+.insert {
+  width: 500px;
+  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  content-align: center;
+}
+
+.botaopopup {
+  position: center;
+  margin-top: 20px;
+}

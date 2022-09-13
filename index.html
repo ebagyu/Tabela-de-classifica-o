@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tabela de classificação - Overwatch</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Tabela de Classificação - Overwatch
+  </title>
+</head>
+<a href="https://github.com/Ebagyu" target="_blank">
+  <img src="https://pnggrid.com/wp-content/uploads/2022/03/Github-Logo-White.png" alt="" class="gabe-logo">
+</a>
+
+<body>
+  <h1>TABELA DE CLASSIFICAÇÃO</h1>
+
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>ícone</th>
+        <th>Campeão</th>
+        <th>Abates</th>
+        <th>Assistência</th>
+        <th>Mortes</th>
+        <th>Pontos</th>
+        <th colspan="3">Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaJogadores">
+      <button class="myButton" onClick="abrir()">Adicionar campeâo</button>
+      <button class="myButton" onClick="limpar()">Limpar pontos</button>
+    </tbody>
+  </table>
+
+  <div class="popup" id="popup">
+    <h2 class="popuptexto"> Aqui você adiciona um novo campeão</h2>
+    <div class="insert">
+      <label for="moeda">Nome do campeão</label><br>
+      <input type="text" name="novo" id="novo" placeholder="exemplo: D.va">
+      <label for="moeda">Url da foto do campeão</label><br>
+      <input id="novoIcone" placeholder="jpg ou png">
+      <button class="myButton" onclick="inserirNovoJogador()"> Inserir </button>
+    </div>
+    <div class="botaopopup">
+      <a href="javascript: fechar()" class="myButton">Clique aqui para fechar</a>
+    </div>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
